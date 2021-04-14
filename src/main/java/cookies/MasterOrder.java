@@ -31,7 +31,7 @@ public class MasterOrder {
         int countVarietyBoxes = 0;
         for (CookieOrder order : orders) {
             if (order.getVariety().equals(variety)) {
-                countVarietyBoxes++;
+                countVarietyBoxes += order.getNumBoxes();
             }
         }
         return countVarietyBoxes;
