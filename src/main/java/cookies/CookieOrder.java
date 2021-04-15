@@ -9,11 +9,9 @@ public class CookieOrder {
         this.numBoxes = localNumBoxes;
         this.variety = localVariety;
     }
-
     public int getNumBoxes() {
         return this.numBoxes;
     }
-
     public String getVariety() {
         return this.variety;
     }

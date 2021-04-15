@@ -25,7 +25,5 @@ public class OrderApp {
         myOrder.removeVariety(varietyToRemove);
         System.out.println("Current Order");
         myOrder.showOrder();
-
-
     }
 }
