@@ -36,5 +36,11 @@ public class MasterOrder {
         }
         return countVarietyBoxes;
     }
+
+    public void showOrder(){
+        for(CookieOrder order: orders){
+            System.out.println("Variety: " + order.getVariety() + " Boxes: " + order.getNumBoxes());
+        }
+    }
 }
 
